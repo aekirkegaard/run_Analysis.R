@@ -2,7 +2,7 @@
 
 #The Data
 The script assumes that all necessary data is in a file called UCI on the working directory. 
-The following files were used from the dataset (descriptions from README.txt):
+The following files were are used in the script (descriptions from README.txt):
 * features.txt - List of all features.
 * train/X_train.txt - Training set.
 * train/y_train.txt - Training labels.
