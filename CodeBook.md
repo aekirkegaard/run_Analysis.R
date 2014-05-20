@@ -29,12 +29,13 @@ The following files were used from the dataset (descriptions from README.txt):
 * melted - a data.frame which contains tidyData after it was melted on the "Subject" and "Activity" variables.
 * means - a data.frame which contains a tidy data set with the average of each variable for each activity and each subject
 
-##Variables used in within the data sets (information from features_info.txt file in UCI directory):
-
+##Variables used in within the data sets:
+From the features.txt file, the main set of variables include statistical functions such as mean and standard deviation on the following:
 tBodyAcc-XYZ, tGravityAcc-XYZ, tBodyAccJerk-XYZ, tBodyGyro-XYZ, tBodyGyroJerk-XYZ, tBodyAccMag, 
 tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag, fBodyAcc-XYZ, fBodyAccJerk-XYZ, 
 fBodyGyro-XYZ, fBodyAccMag, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag
 ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.)
+
 A complete list of all column variables found in the original data set can be found in features.txt in the UCI directory.
 
 #Information about Summary Choices
