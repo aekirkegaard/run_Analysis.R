@@ -12,8 +12,8 @@ The following files were used from the dataset (descriptions from README.txt):
 * test/subject_test.txt- Each row identifies the subject who performed the activity for each window sample.
 
 
-#Information about Variables (including units)
-##Variables used in within the script:
+#Information about Variables 
+##Variables used in within the script
 * train - data.frame contains the raw data from X_train.txt which contains the Training set.
 * test - data.frame contains the raw data from X_test.txt which contains the Test set
 * features - data.frame contains the raw data from features.txt which lists all the features. 
@@ -29,7 +29,7 @@ The following files were used from the dataset (descriptions from README.txt):
 * melted - a data.frame which contains tidyData after it was melted on the "Subject" and "Activity" variables.
 * means - a data.frame which contains a tidy data set with the average of each variable for each activity and each subject
 
-##Variables used in within the data sets:
+##Variables used in within the data sets
 From the features.txt file, the main set of variables include statistical functions such as mean and standard deviation on the following:
 tBodyAcc-XYZ, tGravityAcc-XYZ, tBodyAccJerk-XYZ, tBodyGyro-XYZ, tBodyGyroJerk-XYZ, tBodyAccMag, 
 tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag, fBodyAcc-XYZ, fBodyAccJerk-XYZ, 
@@ -40,14 +40,11 @@ A complete list of all column variables found in the original data set can be fo
 
 #Information about Summary Choices
 ##Naming Strategy
-Column names were created using the features data frame. The column names were "cleaned up" by using 
-gsub to remove all characters. 
+Column names were created from the features dataframe. The column names were "cleaned up" by using 
+gsub to remove all characters. The resulting column names were sufficient for the data. 
 
 ##Variable Selection Method 
-When extracting only the measurements on the mean and standard deviation for each variable the script 
-chooses to also extract the meanFreq variables. These are kept because they also contain a mean calculation.
-The grep function is used to select only columns that are mean or standard deviation calcualtions. It also 
-selects the subject and activity columns. 
+When extracting only the measurements on the mean and standard deviation for each variable the script chooses to also extract the meanFreq variables. These are kept because they also contain a mean calculation. The grep function is used to select only columns that are mean or standard deviation calcualtions. It also selects the subject and activity columns. 
 
 #Steps to Transform Data
 * Loads data from UCI folder
