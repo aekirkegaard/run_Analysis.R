@@ -49,7 +49,7 @@ Column names were created from the features dataframe. The column names were "cl
 gsub to remove all characters. The resulting column names were sufficient for the data. 
 
 ##Variable Selection Method 
-When extracting only the measurements on the mean and standard deviation for each variable the script chooses to also extract the meanFreq variables. These are kept because they also contain a mean calculation. The grep function is used to select only columns that are mean or standard deviation calcualtions. It also selects the subject and activity columns. 
+When extracting only the measurements on the mean and standard deviation for each variable the script chooses to also extract the meanFreq variables. These are kept because they also contain a mean calculation. The grep function is used to select only columns that are mean or standard deviation calculations. It also selects the subject and activity columns. 
 
 #Steps to Transform Data
 The script:
